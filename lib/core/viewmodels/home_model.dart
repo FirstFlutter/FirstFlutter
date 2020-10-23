@@ -14,7 +14,7 @@ class HomeModel extends ChangeNotifier {
   get isValid => _isValid;
   bool _isValid = false;
   void isValidEmail(String input) {
-    if (input == Global.validEmail.first) {
+    if (input == Global.validEmail.first || input == Global.validEmail.last) {
       _isValid = true;
     } else {
       _isValid = false;
