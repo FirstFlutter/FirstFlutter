@@ -1,4 +1,4 @@
-#Thu Oct 22 19:33:22 CDT 2020
+#Thu Oct 22 20:54:31 CDT 2020
 base.0=C\:\\Users\\enriq\\OneDrive\\Desktop\\401 Projects\\FirstFlutter\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

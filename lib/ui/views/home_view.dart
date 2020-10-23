@@ -37,6 +37,8 @@ class HomeView extends StatelessWidget {
                   hintText: 'Password',
                   obscureText: true,
                   prefixIconData: Icons.lock_outline,
+                  suffexIconData:
+                      model.isValid ? Icons.visibility : Icons.visibility_off,
                 ),
                 SizedBox(
                   height: 10.0,
