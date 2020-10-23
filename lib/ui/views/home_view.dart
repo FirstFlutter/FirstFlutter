@@ -8,20 +8,23 @@ class HomeView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Global.white,
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.end,
-        children: <Widget>[
-          TextFieldWidget(
-            hintText: 'Email',
-            obscureText: false,
-            prefixIconData: Icons.mail_outline,
-          ),
-          TextFieldWidget(
-            hintText: 'Password',
-            obscureText: true,
-            prefixIconData: Icons.lock_outline,
-          ),
-        ],
+      body: Padding(
+        padding: const EdgeInsets.all(30.0),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.end,
+          children: <Widget>[
+            TextFieldWidget(
+              hintText: 'Email',
+              obscureText: false,
+              prefixIconData: Icons.mail_outline,
+            ),
+            TextFieldWidget(
+              hintText: 'Password',
+              obscureText: true,
+              prefixIconData: Icons.lock_outline,
+            ),
+          ],
+        ),
       ),
     );
   }

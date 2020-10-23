@@ -19,13 +19,17 @@ class TextFieldWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextField(
-      decoration: InputDecoration(
-          hintText: hintText,
-          prefixIcon: Icon(
-            prefixIconData,
-            size: 18,
-            color: Global.mediumBlue,
-          )),
-    );
+        decoration: InputDecoration(
+      hintText: hintText,
+      prefixIcon: Icon(
+        prefixIconData,
+        size: 18,
+        color: Global.mediumBlue,
+      ),
+      enabledBorder: UnderlineInputBorder(
+        borderRadius: BorderRadius.circular(10),
+        borderSide: BorderSide.none,
+      ),
+    ));
   }
 }
